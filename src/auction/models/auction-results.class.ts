@@ -3,9 +3,9 @@
  * winningPrice is the winningPrice
  * auctionWinners is an array with the names of the winners
  */
-export class AuctionResults{
+export class AuctionResults {
 
-    constructor(winningPrice: number, auctionWinners: string[]){
+    constructor(winningPrice: number, auctionWinners: string[]) {
         this.winningPrice = winningPrice;
         this.auctionWinners = auctionWinners;
     }
